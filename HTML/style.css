@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Varela Round', sans-serif;
+}
+#container{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../HTML/brooke-cagle-WHWYBmtn3_0-unsplash.jpg);
+    background-size: cover;
+    background:cover;
+}
+nav{
+    background: whitesmoke;
+}
+
+nav ul li{
+    font-family: 'Varela Round', sans-serif;
+    display: inline-block;
+    position: relative;
+   margin-left:35px;
+    padding: 19px;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+}
+
+nav li:hover{
+    border: 2px solid #66bfbf;
+    padding:3px;
+    transition: padding 1s ease;
+    border-radius: 5px;
+}
+section{
+    margin-top: 250px;
+    margin-left: 85px;
+    display: flex;
+}
+
+.left{
+    width: 75vw;
+    height: 90vh;
+    display: inline-block;
+}
+.left p{
+    color: white;
+}
+.left h1{
+    color: white;
+    font-size: 3rem;
+}
+section button{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: 80px;
+}
+.right{
+    width:20vw;
+    height: 90vh;
+}
+.right ul li i{
+    background-color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 12px;
+}
