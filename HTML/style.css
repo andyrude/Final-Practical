@@ -2,6 +2,8 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Varela Round', sans-serif;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 #container{
     height: 100vh;
